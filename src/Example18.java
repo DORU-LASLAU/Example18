@@ -6,10 +6,10 @@ public class Example18 {
         Scanner inputValue = new Scanner(System.in);
 
         System.out.println("Enter number of hours:");
-        numberOfHours = inputValue.nextFloat();
+        numberOfHours = inputValue.nextDouble();
 
         System.out.println("Enter price per hour:");
-        pricePerHour = inputValue.nextFloat();
+        pricePerHour = inputValue.nextDouble();
 
         if (numberOfHours > 35) {
             grossPay = (35 * pricePerHour) + (numberOfHours - 35) * (pricePerHour*1.5);
