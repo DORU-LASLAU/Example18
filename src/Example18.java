@@ -12,7 +12,7 @@ public class Example18 {
         pricePerHour = inputValue.nextFloat();
 
         if (numberOfHours > 35) {
-            grossPay = 35 * pricePerHour + (numberOfHours - 35) * 1.5;
+            grossPay = (35 * pricePerHour) + (numberOfHours - 35) * (pricePerHour*1.5);
         } else {
             grossPay = numberOfHours * pricePerHour;
         }
